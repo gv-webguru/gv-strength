@@ -1,0 +1,444 @@
+/*Style rules for Graphic Village's Strength campaign.*/
+
+
+/* Begin typography*/
+.banner-headline{
+    font-family: 'verbatimitalic', sans-serif;
+    /*font-style: italic;*/
+    font-size: 1.75em;
+    margin-bottom: 0;
+    margin-top: 16px;
+    text-shadow: 0 0 15px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,1), 0 0 5px rgba(0,0,0,1);
+}
+
+.headline-emph{
+    font-family: 'verbatimblack_italic', sans-serif;
+    /*font-style: italic;*/
+}
+
+.tagline{
+    font-family: 'verbatimitalic', sans-serif;
+    font-size: 2.5em;
+    margin-top:16px;
+}
+
+.tagline-emph{
+    font-family: 'verbatimblack_italic', sans-serif;
+}
+
+.gv-label{
+    font-family:'verbatimlight', sans-serif;
+    font-size:1.25em;
+    margin-bottom:0;
+}
+
+.pee{
+    margin-bottom:25px;
+}
+
+.blue{
+	color:#00a1e4;
+}
+
+.all-caps{
+	text-transform: uppercase;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.ty-tag{
+	font-size: 2.5em;
+}
+
+.gv-copy{
+	font-family:'verbatimlight', sans-serif;
+}
+
+.lg{
+	font-size: 1.8em;
+}
+
+.gv-copy .bold{
+	font-family: 'verbatimblack_italic', sans-serif;
+}
+
+#gv-address{
+    font-family:'verbatimlight', sans-serif;
+    font-size: .7em;
+}
+
+#gv-address #phone, #gv-address #website{
+    font-family:'verbatimmedium', sans-serif;
+}
+
+#website a{
+    color:#000;
+}
+
+#footer-row{
+    color:#fff;
+    font-family:'gotham_bookregular', sans-serif;
+    font-size:.5em;
+    text-align: center;
+    padding:8px 0;
+}
+
+#footer-row a{
+    color:#fff;
+}
+
+/* - End Typography - */
+
+
+/* - Begin Layout - */
+#footer-row, #banner-row{
+    background:#000;
+}
+#content-row{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+#banner-row{
+    margin:0 -15px 0 0;
+}
+
+#banner-wrapper{
+    padding: 0;
+}
+
+#banner{
+    width:100%;
+    color:#fff;
+    padding: 8px 8px;
+    text-align:center;
+    background-image: url(https://mymulti-craft.com/strength/images/top-banner-notxt-a.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#ty-content{
+	margin: 24px 0;	
+}
+
+#strength-img{
+    width:100%;
+    max-width: 445px;
+    margin:0 auto;
+    padding: 0;
+    position: relative;
+}
+
+#ty-strength-img{
+    width:100%;
+    max-width: 479px;
+    padding: 0;
+    position: relative;
+}
+
+
+
+.sm-linx{
+    position: absolute;
+    z-index: 100;
+    top:90%;
+    width:12%;
+    height:6.4%;
+    /*background-color:rgba(255,255,255,.5);*/
+    border-radius:50%;
+}
+
+.sm-linx:hover{
+    background-color:rgba(255,255,255,.75);
+}
+
+.sm-linx a:hover{
+    text-decoration: none;
+}
+
+
+#fb-link{
+    left:35.8%;
+}
+
+#li-link{
+    left:56%;
+}
+
+#tr-link{
+    left:76%;
+}
+
+.ty-sm-linx .ty-link-space{
+    height:100%;
+    width:100%;
+}
+
+.ty-sm-linx{
+    position: absolute;
+    z-index: 100;
+    top:90%;
+    width:10%;
+    height:6.5%;
+    /*background-color:rgba(255,255,255,.5);*/
+    border-radius:50%;
+}
+
+.ty-sm-linx:hover{
+    background-color:rgba(255,255,255,.75);
+}
+
+.ty-sm-linx a:hover{
+    text-decoration: none;
+}
+
+
+#ty-fb-link{
+    left:41%;
+}
+
+#ty-li-link{
+    left:59.6%;
+}
+
+#ty-tr-link{
+    left:78.4%;
+}
+
+.sm-linx .link-space{
+    height:100%;
+    width:100%;
+}
+
+#strength-img img{
+    width:100%;
+}
+
+.text-input{
+    width: 100%;
+    background-color: #f3f3f3;
+    border: solid 1px #000;
+    height: 48px;
+    margin-bottom: 48px;
+    margin-top:16px;
+}
+
+.challenges{
+    height:150px;
+}
+
+#r-btns{
+    width:100%;
+    margin:0 0 32px;
+}
+
+.vaca-opt{
+    margin-right:45px;
+    margin-top:16px;
+}
+
+#logo-stuff, #ty-logo-stuff{
+    margin-top:16px;
+	bottom: 32px;
+	width:100%;
+	margin-bottom:25px;
+}
+
+
+
+#gv-logo{
+    width:50%;
+    margin: 24px auto;
+}
+
+#ty-gv-logo{
+    width:100%;
+    margin: 24px auto;
+    text-align: center;
+}
+
+#gv-logo img{
+    width:100%;
+}
+
+#gv-address{
+    margin:0 auto;
+    text-align: center;
+}
+
+#gv-address #phone{
+    margin-bottom:.3rem;
+}
+
+#btn-wrapper{
+    width:100%;
+    margin:0;
+}
+
+#sub-btn{
+    width:100%;
+    margin:16px 0;
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:16px 0;
+}
+
+.switch{
+    margin-bottom:0;
+    margin-right:16px;
+}
+
+.switch-label{
+    /*font-weight: bold;*/
+    font-size: 1.25rem;
+}
+
+.switch-paddle{
+    border-radius: 8px;
+    box-shadow: -4px 0px 4px rgba(0,0,0,.5) inset;
+    
+}
+
+input:checked~.switch-paddle{
+    background: rgba(95,107,25,1);
+}
+
+.vaca-opt{
+    display: inline-block;
+}
+
+/* - End Layout - */
+
+/*The following media queries follow a mobile-first approach. All styles above these queries
+apply to device displays with a width of less than 576px. (phone - portrait)*/
+
+/*breakpoint coinciding with Bootstrap's sm (phone - landscape)*/
+@media screen and (min-width: 576px){
+    .banner-headline{
+        font-size:2em;
+    }
+    #banner{
+        min-height: 185px;
+    }
+    #strength-img{
+    margin: 8px 0;
+    }
+	
+	#ty-strength-img{
+		margin:8px 0;
+	}
+    
+    #gv-logo{
+        width:24%;
+    }
+}
+
+/*breakpoint coinciding with Bootstrap's med (tablet - portrait | large phone - landscape) - which is where I've set the columns to display horizontally.*/
+@media screen and (min-width: 768px){
+    .banner-headline{
+        font-size: 2.25em;
+    }
+    #banner{
+        min-height: 247px;
+    }
+    #strength-img{
+    margin: 16px 0;
+    }
+	
+	#ty-strength-img{
+		margin:16px 0;
+	}
+    
+    #gv-logo{
+        width: 75%;
+        margin:0px;
+    }
+    
+    #gv-address{
+        border-left: solid 1px #000;
+        padding-left:80px;
+        text-align: left;
+    }
+}
+
+/*breakpoint coinciding with Bootstrap's lg (tablet - landscape)*/
+@media screen and (min-width: 992px){
+    #banner{
+        min-height: 319px;
+    }
+    #strength-img{
+    margin: 24px 0;
+    }
+	
+	#ty-strength-img{
+		margin:24px 0;
+	}
+    
+    #logo-stuff{
+        margin-top:24px;
+    }
+    #gv-logo{
+        width:65%;
+    }
+    #ty-logo-stuff{
+	   position: absolute;
+       bottom: 25%;
+    }
+}
+
+/*breakpoint coinciding with Bootstrap's x-lg (desktops)*/
+@media screen and (min-width:1200px){
+    .banner-headline{
+        font-size: 2.5em;
+    }
+    
+    .tagline{
+        margin-top: 32px;
+    }
+    
+    #banner{
+        width:100%;
+        max-width:1200px;
+        height:386px;
+        margin: 0 auto;
+        
+    }
+    
+    #strength-img{
+    margin: 32px 0;
+    
+    }
+	
+	#ty-strength-img{
+		margin:32px 0;
+	}
+	
+    .text-input{
+        width:75%;
+    }
+    
+    #logo-stuff{
+        margin-top:32px;
+    }
+    
+    #gv-logo{
+        width:50%;
+    }
+	
+	#ty-gv-logo{
+        width:79.42%;
+		margin:0 auto;
+    }
+	
+    #gv-address{
+        font-size:.8em;
+    }
+    
+}
