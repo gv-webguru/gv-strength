@@ -281,6 +281,15 @@
 #sub-btn{
     width:100%;
     margin:16px 0;
+    background-color:#00b5f2;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    box-shadow: 0 -15px 25px rgba(0,0,0,.15) inset;
+}
+
+#sub-btn:hover{
+    box-shadow: 0 15px 25px rgba(0,0,0,.15) inset;
 }
 
 .choice{
